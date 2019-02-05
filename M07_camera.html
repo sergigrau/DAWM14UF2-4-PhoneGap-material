@@ -1,0 +1,25 @@
+<script xmlns="http://www.w3.org/1999/html">
+    $.getScript("js/M07_camera.js");
+</script>
+
+<header class="bar bar-nav">
+    <a class="icon icon-left-nav pull-left" onclick="paginaActual.enrera();"></a>
+    <h1 class="title">Càmera</h1>
+</header>
+
+<div class="content">
+    <button  class="btn btn-positive btn-block"  onclick="app.ferFoto()">fer foto</button> <br>
+    <button  class="btn btn-positive btn-block" onclick="app.ferFotoEditable()"  >fer una foto editable</button> <br>
+    <button  class="btn btn-positive btn-block" onclick="app.obtenirFoto(origenFoto.PHOTOLIBRARY);">des de la biblioteca de foto</button><br>
+    <button   class="btn btn-positive btn-block" onclick="app.obtenirFoto(origenFoto.SAVEDPHOTOALBUM);">des d'un album de fotos</button><br>
+    <img style="display:none;width:60px;height:60px;" id="miniatura" src="" />
+    <img style="display:none;" id="imatgeGran" src="" />
+
+</div>
+
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#" id="">
+        Desa
+    </a>
+</nav>
+</nav>

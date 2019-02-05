@@ -1,0 +1,28 @@
+<script xmlns="http://www.w3.org/1999/html">
+    $.getScript("js/M06_baseDades.js");
+</script>
+
+<header class="bar bar-nav">
+    <a class="icon icon-left-nav pull-left" onclick="paginaActual.enrera();"></a>
+    <h1 class="title">Bases de dades</h1>
+</header>
+
+<div class="content">
+    <h1 >Llista tasques</h1>
+    <input type="text"  id="accio" />
+    <div id="missatge"></div>
+    <ul class="table-view" id="llista">
+
+
+    </ul>
+</div>
+
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#" id="desaBD" onclick="app.desar()">
+        Desa
+    </a>
+    <a class="tab-item active" href="#" id="esborraBD" onclick="app.esborrar();">
+        Esborra
+    </a>
+</nav>
+</nav>

@@ -1,0 +1,23 @@
+<script>
+    $.getScript("js/M00_llistatAPI.js");
+    $(function() {
+        app.initialize();
+    });
+
+</script>
+
+<header class="bar bar-nav">
+    <h1 class="title">DAW2M14 Programació Apps mòbils</h1>
+</header>
+
+<div class="content">
+    <div class="content-padded">
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M01_accelerometre');">Accelerometre</button>
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M02_geolocalitzacio');">Geolocalització</button>
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M03_mapes');">Mapes</button>
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M04_fitxersRemot');">Fitxers Remot</button>
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M05_fitxersLocal');">Fitxers Local</button>
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M06_baseDades');">Bases de dades</button>
+        <button class="btn btn-positive btn-block" onclick="paginaActual.carregarPagina('M07_camera');">Càmera</button>
+    </div>
+</div>
